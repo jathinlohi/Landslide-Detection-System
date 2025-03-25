@@ -3,7 +3,7 @@
 
 This project uses a fine-tuned Convolutional Neural Network (CNN) model to detect potential landslide-prone areas in satellite imagery. The model is trained on geospatial `.h5` image data and highlights regions with a high probability of landslides.
 
-## 📂 Project Structure
+## Project Structure
 
 - `Final Code.ipynb` – Main Jupyter Notebook for model execution and visualization.
 - `model.h5` – Fine-tuned CNN model  
@@ -13,7 +13,7 @@ This project uses a fine-tuned Convolutional Neural Network (CNN) model to detec
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -61,7 +61,7 @@ jupyter notebook "Final Code.ipynb"
 
 ---
 
-## 📊 Model Overview
+## Model Overview
 
 - **Model Type:** Custom CNN
 - **Input Format:** `.h5` geospatial images
@@ -71,7 +71,7 @@ jupyter notebook "Final Code.ipynb"
 
 ---
 
-## 🗺️ Dataset Used
+## Dataset Used
 
 - **Name:** Landslide4Sense
 - **Region:** Southeast Asia (Western Ghats included)
@@ -79,7 +79,7 @@ jupyter notebook "Final Code.ipynb"
 
 ---
 
-## 💡 Features
+## Features
 
 - ✅ Simple drag-and-drop GUI for image input
 - ✅ High-accuracy detection (98%)
@@ -88,23 +88,10 @@ jupyter notebook "Final Code.ipynb"
 
 ---
 
-## 📌 Future Work
+## Future Work
 
 - Add batch processing support  
 - Web-based frontend (Streamlit or Flask)  
 - Integration with GIS tools  
 - REST API deployment
 
----
-
-## 🙌 Author
-
-**Jathin**  
-B.Tech Computer Science Engineering – SRMIST  
-Final Year Project
-
----
-
-## 📃 License
-
-MIT License
